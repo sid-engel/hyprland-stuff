@@ -1,4 +1,5 @@
--- Hyprland Stuff Readme -- \n
+-- Hyprland Stuff Readme --
+
 The directories correlate with the obviously correlated apps/locations.
 ~/.config/x
 
