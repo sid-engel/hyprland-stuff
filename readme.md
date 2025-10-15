@@ -16,9 +16,9 @@ Hyprland
 Mako
 Hyprlock
 Brave
-
+Hyprpaper
 
 Bounties(unpaid duh)
 - Find a better waybar solution to the network connection module.
 - Just make it prettier.
-- Implement hyprpaper and it's configs
+- Add hyprpaper bg to lock screen.
