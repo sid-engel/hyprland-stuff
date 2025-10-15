@@ -21,3 +21,4 @@ Brave
 Bounties(unpaid duh)
 - Find a better waybar solution to the network connection module.
 - Just make it prettier.
+- Edit and add Mako config.
