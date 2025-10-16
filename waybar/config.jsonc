@@ -57,10 +57,10 @@
   },
 
   "disk": {
-    "format": "{percentage_free}% ",
+    "format": "{percentage_used}% ",
     "tooltip": true,
-    "tooltip-format": "Storage: {free} / {total} ({percentage_free}%)"
-  },
+    "tooltip-format": "Used: {used} / {total} ({percentage_used}%)"
+},
 
   "temperature": {
     "format": "{temperatureC}°C {icon}",
