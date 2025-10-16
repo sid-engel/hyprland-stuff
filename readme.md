@@ -21,4 +21,3 @@ Hyprpaper
 Bounties(unpaid duh)
 - Find a better waybar solution to the network connection module.
 - Just make it prettier.
-- Add kitty config.
