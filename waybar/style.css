@@ -7,11 +7,11 @@
 }
 
 window#waybar {
-  background: rgba(34, 36, 54, 0.6);
+  background: rgba(0, 0, 0, 0.45);
 }
 
 window#waybar.hidden {
-  opacity: 0.2;
+  opacity: 1;
 }
 
 /* - General rules for visible modules -- */
@@ -27,7 +27,7 @@ window#waybar.hidden {
 #network,
 #language,
 #battery {
-  color: #261320;
+  color: white;
   margin-top: 6px;
   margin-bottom: 6px;
   transition: none;
@@ -58,61 +58,61 @@ window#waybar.hidden {
 /* Modules left */
 #custom-archicon {
   font-size: 20px;
-  color: #89B4FA;
-  background: #161320;
+  color: white;
+  background: #333333;
   padding-right: 17px;
 }
 
 #clock {
-  background: #ABE9B3;
+  background: #333333;
 }
 
 #cpu {
-  background: #96CDFB;
+  background: #333333;
 }
 
 #memory {
-  background: #DDB6F2;
+  background: #333333;
 }
 
 #disk {
-  background: #F5C2E7;
+  background: #333333;
 }
 
 #temperature {
-  background: #F8BD96;
+  background: #333333;
 }
 
 #battery {
-  background-color: #FFFACD;
+  background-color: #333333;
 }
 
 /* Modules center */
 #workspaces {
-  background: rgba(0, 0, 0, 0.5);
+  background: #333333;
   border-radius: 10px;
   margin: 6px 5px;
   padding: 0px 6px;
 }
 
 #workspaces button {
-  color: #B5E8E0;
+  color: grey;
   background: transparent;
   padding: 4px 4px;
   transition: color 0.3s ease, text-shadow 0.3s ease, transform 0.3s ease;
 }
 
 #workspaces button.occupied {
-  color: #A6E3A1;
+  color: #333333;
 }
 
 #workspaces button.active {
-  color: #89B4FA;
+  color: white;
   text-shadow: 0 0 4px #ABE9B3;
 }
 
 #workspaces button:hover {
-  color: #89B4FA;
+  color: white;
 }
 
 #workspaces button.active:hover {}
@@ -141,19 +141,19 @@ window#waybar.hidden {
 }
 
 #idle_inhibitor {
-  background: #B5E8E0;
+  background: #333333;
   padding-right: 15px;
 }
 
 #pulseaudio {
   min-width: 55px;
-  color: #1A1826;
-  background: #F5E0DC;
+  color: white;
+  background: #333333;
 }
 
 #pulseaudio-slider {
-  color: #1A1826;
-  background: #E8A2AF;
+  color: white;
+  background: #333333;
   min-width: 50px;
 }
 
@@ -161,7 +161,7 @@ window#waybar.hidden {
 
 
 #network {
-  background: #CBA6F7;
+  background: #333333;
   padding-right: 13px;
 }
 
@@ -170,7 +170,7 @@ window#waybar.hidden {
 }
 
 #language {
-  background: #A6E3A1;
+  background: #333333;
   padding-right: 15px;
 }
 

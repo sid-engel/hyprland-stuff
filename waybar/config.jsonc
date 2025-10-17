@@ -57,7 +57,7 @@
   },
 
   "disk": {
-    "format": "{percentage_used}% ",
+    "format": "{percentage_used}% \uf0c7",
     "tooltip": true,
     "tooltip-format": "Used: {used} / {total} ({percentage_used}%)"
 },
@@ -136,7 +136,7 @@
 
   "network": {
     "interval": 5,
-    "format-wifi": "  {essid} ({signalStrength}%)",
+    "format-wifi": "   {essid} ({signalStrength}%)",
     "format-ethernet": "󰈁  {ifname}",
     "format-disconnected": "󰖪  Disconnected",
     "tooltip-format": "{ifname} via {gwaddr}\n{ipaddr}/{cidr}",
