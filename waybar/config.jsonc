@@ -22,7 +22,6 @@
   ],
   "modules-right": [
     "wlr/taskbar",
-    "idle_inhibitor",
     "pulseaudio/slider",
     "pulseaudio",
     "network"
@@ -101,6 +100,8 @@
   },
 
   /* === Modules Right === */
+
+  /* Some shit, idk...
   "wlr/taskbar": {
     "format": "{icon}",
     "all-outputs": true,
@@ -109,15 +110,7 @@
     "on-click": "activate",
     "on-click-middle": "close",
     "ignore-list": ["rofi"]
-  },
-
-  "idle_inhibitor": {
-    "format": "{icon}",
-    "format-icons": {
-      "activated": "",
-      "deactivated": ""
-    }
-  },
+  }, */
 
   "pulseaudio/slider": {
     "format": "{volume}%",

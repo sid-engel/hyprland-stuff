@@ -38,13 +38,13 @@ window#waybar.hidden {
 /* Separation to the left */
 #custom-archicon,
 #cpu,
-#idle_inhibitor {
+#pulseaudio-slider {
   margin-left: 5px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
 
-/* Separation to the rigth */
+/* Separation to the right */
 #clock,
 #network,
 #battery {
@@ -140,10 +140,6 @@ window#waybar.hidden {
   background: rgba(34, 36, 54, 0.5);
 }
 
-#idle_inhibitor {
-  background: #333333;
-  padding-right: 15px;
-}
 
 #pulseaudio {
   min-width: 55px;
